@@ -1,0 +1,21 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[[source]]
+url = "https://pypi.infra.wish.com/api/package/torch/torch-1.10.0-cp39-none-macosx_10_9_x86_64.whl"
+verify_ssl = false
+name = "pytorch"
+
+[[source]]
+url = "https://pypi.infra.wish.com/simple"
+verify_ssl = true
+name = "wish"
+
+[packages]
+locust = "*"
+contextlib2 = "*"
+
+[requires]
+python_version = "3.8"
