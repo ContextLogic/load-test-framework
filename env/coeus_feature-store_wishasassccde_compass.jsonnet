@@ -5,7 +5,7 @@ local types = import 'lib/types.libsonnet';
 
 {
 	name: 'compass',
-	owner_email: 'shchen@wish.com',
+	owner_email: 'shwang@wish.com',
 	team: 'ad.org_risk.name',
 	oncall: 'pagerduty['product-payments-pod'].name',
 
