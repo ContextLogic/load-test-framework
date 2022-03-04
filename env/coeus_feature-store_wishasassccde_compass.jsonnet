@@ -13,7 +13,7 @@ local types = import 'lib/types.libsonnet';
 	schedule: 'risk_datamart.yujie_fraud_device_id_br_1111',
 	key: field('device_id', types.STRING),
 	values: [
-		field('gross_paid_total_3d', types.DOUBLE),
+		field('gross_paitotal_3d', types.DOUBLE),
 		field('gross_gmv_3d', types.DOUBLE),
 		field('gross_paid_total_7d', types.DOUBLE),
 	],
